@@ -12,3 +12,23 @@ function greeter(person) {
 }
 var user = new Student('Ayush', 'z', 'Arya');
 document.body.textContent = greeter(user);
+var isDone = false; //Boolean
+var decimal = 8; // Number
+var fullName = 'Ayush Arya'; //String
+var sentence = "Hello, my name is " + fullName;
+var sum = [1, 2, 3]; // Array
+var list = [1, 2, 3];
+var x = ['sss', 10]; //Tuples
+var y = 1;
+var notSure = 4;
+notSure.ifItExists(); // okay, ifItExists might exist at runtime
+notSure.toFixed(); // okay, toFixed exists (but the compiler doesn't check)
+var nums = [1, 'hh', 2];
+console.log(nums);
+function cat() {
+    console.log('i am a cat');
+}
+function create(o) {
+    console.log('kk');
+}
+create({ prop: 1 });
