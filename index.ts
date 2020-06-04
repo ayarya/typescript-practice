@@ -46,3 +46,13 @@ function create(o: object | null): void {
 	console.log('kk');
 }
 create({ prop: 1 });
+
+function name2(firstName: string, lastName?: string): void {}
+name2('a');
+function name3(firstName: string, lastName: string = 'Sam'): void {}
+name2('a');
+
+const cars: string[] = [ 'aa', 'ba', 'dc' ];
+cars.map((car: string): string => {
+	return car.toLocaleLowerCase();
+});

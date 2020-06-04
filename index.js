@@ -32,3 +32,13 @@ function create(o) {
     console.log('kk');
 }
 create({ prop: 1 });
+function name2(firstName, lastName) { }
+name2('a');
+function name3(firstName, lastName) {
+    if (lastName === void 0) { lastName = 'Sam'; }
+}
+name2('a');
+var cars = ['aa', 'ba', 'dc'];
+cars.map(function (car) {
+    return car.toLocaleLowerCase();
+});
