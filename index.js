@@ -18,6 +18,7 @@ var fullName = 'Ayush Arya'; //String
 var sentence = "Hello, my name is " + fullName;
 var sum = [1, 2, 3]; // Array
 var list = [1, 2, 3];
+var pepsi = ['pepsi', 10]; //Tuples
 var x = ['sss', 10]; //Tuples
 var y = 1;
 var notSure = 4;

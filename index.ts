@@ -27,6 +27,9 @@ let sentence: string = `Hello, my name is ${fullName}`;
 let sum: number[] = [ 1, 2, 3 ]; // Array
 let list: Array<number> = [ 1, 2, 3 ];
 
+type Drink = [string, number];
+let pepsi: Drink = [ 'pepsi', 10 ]; //Tuples
+
 let x: [string, number] = [ 'sss', 10 ]; //Tuples
 
 let y: any = 1;
